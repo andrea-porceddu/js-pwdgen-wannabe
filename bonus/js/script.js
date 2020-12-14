@@ -21,7 +21,7 @@
 // } else
 // var age = age;
 // var output = name + ' ' + age;
-// document.getElementById('result2').innerText = output; //null if empty
+// document.getElementById('result').innerText = output; //null if empty
 
 // Trying arrays
 
@@ -30,4 +30,4 @@ var output = [
     prompt('Inserisci la tua età'),
     prompt('Inserisci il tuo colore preferito')
 ];
-document.getElementById('result3').innerText = output;
+document.getElementById('result').innerText = output;
